@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buttons</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+<body>
+<!--Exercise 9.1 - Bootstrap Buttons-->
+  <div class="container mt-5">
+    <h2 class="text-primary">Buttons</h2>
+
+    <h5 class="mt-4">Solid</h5>
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-secondary">Secondary</button>
+    <button class="btn btn-success">Success</button>
+    <button class="btn btn-danger">Danger</button>
+    <button class="btn btn-warning">Warning</button>
+    <button class="btn btn-info">Info</button>
+    <button class="btn btn-dark">Dark</button>
+
+    <h5 class="mt-4">Outline</h5>
+    <button class="btn btn-outline-primary">Primary</button>
+    <button class="btn btn-outline-secondary">Secondary</button>
+    <button class="btn btn-outline-success">Success</button>
+    <button class="btn btn-outline-danger">Danger</button>
+    <button class="btn btn-outline-warning">Warning</button>
+    <button class="btn btn-outline-info">Info</button>
+    <button class="btn btn-outline-dark">Dark</button>
+  </div>
+
+<!--Exercise 9.2 - Button Groups & Toggles-->
+  <div class="container mt-5">
+    <h2 class="text-success">Toggles</h2>
+
+    <h5 class="mt-4">Button Group</h5>
+    <div class="btn-group" role="group" aria-label="Basic button group">
+      <button type="button" class="btn btn-primary">Left</button>
+      <button type="button" class="btn btn-primary">Middle</button>
+      <button type="button" class="btn btn-primary">Right</button>
+    </div>
+
+    <h5 class="mt-4">Toggle Buttons</h5>
+    <input type="checkbox" class="btn-check" id="toggle1" autocomplete="off" />
+    <label class="btn btn-outline-success" for="toggle1">Toggle 1</label>
+
+    <input type="checkbox" class="btn-check" id="toggle2" autocomplete="off" />
+    <label class="btn btn-outline-success" for="toggle2">Toggle 2</label>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

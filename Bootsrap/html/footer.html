@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Footer</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+    body {
+      padding-bottom: 60px; /* leave space for fixed footer */
+    }
+  </style>
+</head>
+<body>
+<!--Exercise 16.1 - Fixed Footer-->
+  <div class="container mt-5">
+    <h2 class="text-center text-primary"></h2>
+    <p>This content scrolls normally, but the footer stays fixed at the bottom of the screen.</p>
+  </div>
+
+  <!-- Fixed Footer -->
+  <footer class="bg-dark text-white text-center py-3 position-fixed bottom-0 w-100">
+    &copy; 2025 MyWebsite - All rights reserved.
+  </footer>
+<!--Exercise 16.2 - Badge Over Image-->
+  <hr>
+  <div class="container mt-5">
+    <h2 class="text-success text-center"></h2>
+
+    <div class="position-relative d-inline-block">
+      <img src="https://via.placeholder.com/300x200" class="img-fluid rounded" alt="Image with badge">
+
+      <!-- Positioned Badge -->
+      <span class="badge bg-danger position-absolute top-0 start-0 m-2">New</span>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

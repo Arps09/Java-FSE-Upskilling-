@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Navbar</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Logo/Brand -->
+      <a class="navbar-brand" href="#">MySite</a>
+
+      <!-- Toggler for mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible Menu -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+        </ul>
+
+        <!-- Search Form -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!--Exercise 10.2 - Tabs and Pills-->
+   <div class="container mt-5">
+    <h2 class="text-info"></h2>
+
+    <h5 class="mt-4">Tabs</h5>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Tab 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Tab 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Tab 3</a>
+      </li>
+    </ul>
+
+    <h5 class="mt-4">Pills</h5>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Pill 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pill 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pill 3</a>
+      </li>
+    </ul>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

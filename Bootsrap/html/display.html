@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Display</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<!--Exercise 14.1 - Display Utilities-->
+  <div class="container mt-5">
+    <h2 class="text-center text-primary">Utilities</h2>
+
+    <div class="bg-warning text-dark p-3 mb-3 d-none d-md-block">
+      This box is <strong>hidden on mobile</strong>, but <strong>visible on tablet and larger</strong>.
+    </div>
+
+    <div class="bg-info text-white p-3 d-none d-lg-flex justify-content-center">
+      This box is <strong>only shown on large screens (lg+)</strong> using flex layout.
+    </div>
+  </div>
+
+
+<!--Exercise 14.2 - Responsive Sidebar-->
+   <div class="container mt-5">
+    <h2 class="text-success text-center">Sidebar</h2>
+
+    <div class="row">
+      <!-- Sidebar: hidden on small screens -->
+      <div class="col-md-3 d-none d-md-block bg-light p-3 border-end">
+        <h5>Sidebar</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-decoration-none">Dashboard</a></li>
+          <li><a href="#" class="text-decoration-none">Settings</a></li>
+        </ul>
+      </div>
+
+      <!-- Main content -->
+      <div class="col-md-9 col-12 p-3">
+        <p>This is the main content area. The sidebar only shows on tablets and larger screens.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

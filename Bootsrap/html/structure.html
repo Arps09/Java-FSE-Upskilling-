@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collapse Example</title>
+
+  <!-- ✅ Link local Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+<body>
+<!--Collapse Example (JavaScript Plugin)-->
+  <div class="container mt-5">
+    <h2 class="text-success"></h2>
+
+    <!-- Button to toggle collapse -->
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#myContent">
+      Show/Hide Content
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse mt-3" id="myContent">
+      <div class="card card-body">
+        This content appears and disappears using Bootstrap's collapse plugin.
+      </div>
+    </div>
+  </div>
+
+  <!-- ✅ Link local Bootstrap Bundle JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

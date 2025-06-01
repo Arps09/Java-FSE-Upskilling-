@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flexbox Navbar</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+<body>
+<!--Exercise 6.1 - Responsive Flex Navbar-->
+  <div class="container mt-4">
+    <h2 class="text-center text-primary"></h2>
+
+    <nav class="d-flex flex-column flex-md-row bg-light p-3 border rounded justify-content-around">
+      <a href="#" class="text-decoration-none text-dark px-2">Home</a>
+      <a href="#" class="text-decoration-none text-dark px-2">About</a>
+      <a href="#" class="text-decoration-none text-dark px-2">Services</a>
+      <a href="#" class="text-decoration-none text-dark px-2">Contact</a>
+    </nav>
+  </div>
+  <!--Exercise 6.2 - Flex Utilities in Card-->
+  
+  <div class="container mt-4">
+    <h2 class="text-center text-success"></h2>
+
+    <div class="card p-3">
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
+          <h5 class="card-title mb-1">Product Name</h5>
+          <p class="card-text text-muted">Some description</p>
+        </div>
+        <button class="btn btn-primary">Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
