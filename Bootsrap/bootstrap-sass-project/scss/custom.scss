@@ -1,0 +1,8 @@
+// Import only what's needed first
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$primary: #ff5733;         
+$border-radius: 1rem;    
+
+@import "../node_modules/bootstrap/scss/bootstrap";
